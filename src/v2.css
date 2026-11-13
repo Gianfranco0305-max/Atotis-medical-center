@@ -14,3 +14,16 @@
 @media(max-width:800px){.v2-hero-logo{width:min(64vw,290px);height:170px;top:30%;padding:10px 20px}.v2-scene:nth-child(2) .v2-scene-content{top:66%}.v2-scene:nth-child(2) .v2-overline{font-size:clamp(17px,5vw,24px)}.v2-scene:nth-child(2) h1{font-size:clamp(42px,9vw,62px)}.v2-expanded,.v2-team,.v2-tech,.v2-editorial{padding:80px 0}.v2-expanded-grid,.v2-team-columns{grid-template-columns:1fr;gap:60px}.v2-tech-grid{grid-template-columns:repeat(2,1fr)}.v2-tech-card{min-height:210px;padding:22px 15px}.v2-tech-card h3{font-size:24px}.v2-editorial-grid{grid-template-columns:1fr}.v2-person{align-items:start}.v2-person span{max-width:45%}}
 @media(max-width:420px){.v2-tech-grid{grid-template-columns:1fr}.v2-hero-logo{top:29%;height:145px}.v2-scene:nth-child(2) .v2-scene-content{top:66%}}
 @media(prefers-reduced-motion:reduce){.v2-hero-logo{position:relative;left:auto;top:auto;transform:none!important;margin:30px auto 0;opacity:1!important}.v2-scene:nth-child(2) .v2-scene-content{top:50%}}
+
+/* Seamless left-aligned ATOTIS logo, no badge, card or frame */
+.v2-hero-logo{position:absolute;z-index:15;left:max(4.2vw,calc((100% - 1250px)/2));top:33%;width:clamp(300px,36vw,560px);height:clamp(220px,36vh,370px);padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;display:block;transform-origin:left center;pointer-events:none;isolation:isolate;will-change:opacity,transform}
+.v2-hero-logo img{display:block;width:100%;height:100%;object-fit:contain;object-position:left center;mix-blend-mode:multiply;filter:contrast(1.08) saturate(1.12)}
+.v2-scene:nth-child(2) .v2-tint{background:linear-gradient(90deg,rgba(242,246,250,.90) 0%,rgba(238,244,250,.72) 30%,rgba(17,45,97,.10) 68%,rgba(17,45,97,.23) 100%)}
+.v2-scene:nth-child(2) .v2-scene-content{top:auto;bottom:12%;transform:none;left:max(4.2vw,calc((100% - 1250px)/2));max-width:790px;color:#173d83}
+.v2-scene:nth-child(2) .v2-overline{color:#173d83;text-shadow:none;font-size:clamp(21px,2.6vw,39px);letter-spacing:.09em;margin-bottom:12px}
+.v2-scene:nth-child(2) h1{font-size:clamp(38px,4.5vw,70px);margin-bottom:10px;color:#173d83}
+.v2-scene:nth-child(2) p{color:#354c6e;font-size:clamp(13px,1.3vw,17px);line-height:1.5;margin-bottom:0}
+.v2-scene:nth-child(2) .v2-round-link{margin-top:13px;border-color:#173d83;color:#173d83;padding:12px 18px}
+.v2-scene:nth-child(2) .v2-round-link:hover{background:#173d83;color:white}
+@media(max-width:800px){.v2-hero-logo{left:5%;top:33%;width:70vw;height:30vh;max-height:270px}.v2-scene:nth-child(2) .v2-scene-content{left:5%;bottom:15%;max-width:90%}.v2-scene:nth-child(2) .v2-overline{font-size:clamp(18px,5vw,26px)}.v2-scene:nth-child(2) h1{font-size:clamp(38px,8vw,55px)}.v2-scene:nth-child(2) .v2-tint{background:linear-gradient(90deg,rgba(242,246,250,.95),rgba(239,244,249,.74) 65%,rgba(21,55,111,.12))}}
+@media(max-width:420px){.v2-hero-logo{width:82vw;top:31%;height:27vh}.v2-scene:nth-child(2) .v2-scene-content{bottom:12%}}
