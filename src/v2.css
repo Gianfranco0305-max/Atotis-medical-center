@@ -4,3 +4,6 @@
 
 /* ATOTIS identity — navy / orange / ivory */
 .v2-brand{font-family:'Playfair Display',serif;font-weight:500;letter-spacing:1px}.v2-brand::first-letter{color:#f3944a}.v2-scene h1 em{color:#f5aa69}.v2-round-link:hover,.v2-nav-call:hover,.v2-contact-btn:hover{background:#e77720;color:#fff;border-color:#e77720}.v2-round-link,.v2-nav-call,.v2-contact-btn{transition:background .25s,color .25s,border-color .25s}.v2-scene .v2-tint{background:linear-gradient(90deg,rgba(12,31,69,.82),rgba(13,45,94,.35) 68%,rgba(15,42,80,.16))}.v2-card-img>span{background:#fff;color:#173d83}.v2-card-meta>a:hover{background:#e77720;border-color:#e77720;color:white}.v2-overline{color:#f4b47b}.v2-scroll-track>div{background:#e77720}.v2-progress span.on{background:#e77720}.v2-footer-brand{color:#f8f7f4}.v2-contact-btn{background:#173d83}
+
+/* Authentic ATOTIS logo: preserve artwork and proportions */
+.v2-header{height:110px}.v2-brand{display:flex;align-items:center;justify-content:center;width:145px;height:100px;padding:7px;background:rgba(255,255,255,.96);border-radius:0 0 15px 15px;box-shadow:0 10px 30px rgba(9,28,59,.12)}.v2-logo{display:block;width:100%;height:100%;object-fit:contain}.v2-brand::first-letter{color:inherit}@media(max-width:800px){.v2-header{height:86px}.v2-brand{width:100px;height:78px;padding:5px}.v2-nav{top:86px}}
